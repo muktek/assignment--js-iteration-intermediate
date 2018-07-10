@@ -8,9 +8,9 @@ The purpose of this assignment is to continue to improve your understanding and 
 ### Setup
 ```sh
 # (1) Go to your  muktek/assignments directory and create the `js-iteration-intermediate` folder for this assignment
-cd ~/Documents/muktek/assignments
-mkdir js-iteration-intermediate
-cd js-iteration-intermediate
+cd ~/muktek/assignments
+mkdir assignment--js-iteration-intermediate
+cd assignment--js-iteration-intermediate
 
 
 # (2) Download the assignment-files with curl from the assignment repo and unzip
