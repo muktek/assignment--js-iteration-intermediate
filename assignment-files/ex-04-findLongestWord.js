@@ -22,22 +22,6 @@
 // *~*~*~*~*~*~*~* Tests (Don't Touch) *~*~*~*~*~*~*~*~*
 // *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 
-function findLongestWord(sentenceStr){
-  var wordsArr = sentenceStr.split(' ')
-  var longestWordNoPunc = _stripPunctuation(wordsArr[0])
-  var longestWord = wordsArr[0]
-
-  for (var i = 0; i < wordsArr.length; i++) {
-    var wordStripped = _stripPunctuation(wordsArr[i])
-
-    if(wordStripped.length > longestWordNoPunc.length){
-      longestWord = wordsArr[i]
-      longestWordNoPunc = wordStripped
-    }
-  }
-
-  return longestWord
-}
 
 console.group('ex-04');
   console.log('ex-04\n%cFunction: findLongestWord', 'background-color: green; color: white')
