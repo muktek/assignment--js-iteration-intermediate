@@ -33,6 +33,7 @@ console.assert(findLongestWord('i have baskets full of lemons') === 'baskets')
 console.log('Should return "Alexander" from "Alexander shouldn’t talk anymore"');
 console.assert(findLongestWord("Alexander shouldn't talk anymore") === 'Alexander')
 
+//  punctuation should NOT be included in the evaluation for the longest word
 console.log('Should return "Texas" from "don’t mess with Texas"');
 console.assert(findLongestWord("don't mess with Texas") === 'Texas')
 
